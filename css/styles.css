@@ -1,0 +1,148 @@
+
+body {
+  color: #444444;
+  margin: 0;
+  text-align: center;
+  font-family: 'oswald', sans-serif;
+}
+
+h1{
+  color: #39A2DB;
+  font-size: 5.375rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #39A2DB;
+  font-family: 'Khand', sans-serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  color: #39A2DB;
+  font-family: 'Khand', sans-serif;
+  font-size: 2.25rem;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+border: dotted gray 6px;
+border-bottom: none;
+width: 5%;
+margin: 80px auto;
+}
+
+a {
+  color: #39A2DB;
+  font-family: 'oswald', sans-serif;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #87CEFA;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 80px 0;
+}
+.bottom-container {
+  background-color: #87CEFA;
+  padding: 50px 0 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.mountain-img{
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px ;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  width: 15%;
+  position: absolute;
+  left: 200px;
+  bottom: 350px;
+}
+
+.profile-img {
+  width: 20%;
+}
+
+.history-img {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bis-img {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background: #04568c;
+  background-image: -webkit-linear-gradient(top, #04568c, #45a8e6);
+  background-image: -moz-linear-gradient(top, #04568c, #45a8e6);
+  background-image: -ms-linear-gradient(top, #04568c, #45a8e6);
+  background-image: -o-linear-gradient(top, #04568c, #45a8e6);
+  background-image: linear-gradient(to bottom, #04568c, #45a8e6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'oswald', sans-serif;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0095f2;
+  background-image: -webkit-linear-gradient(top, #0095f2, #1e5980);
+  background-image: -moz-linear-gradient(top, #0095f2, #1e5980);
+  background-image: -ms-linear-gradient(top, #0095f2, #1e5980);
+  background-image: -o-linear-gradient(top, #0095f2, #1e5980);
+  background-image: linear-gradient(to bottom, #0095f2, #1e5980);
+  text-decoration: none;
+}
